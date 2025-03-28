@@ -71,8 +71,8 @@ PORT=3000
 
 ## Installation
 
-git clone https://github.com/your-username/twitter-rt-bot
-cd twitter-rt-bot
+git clone https://github.com/Doomed-4Dina/D4D-XRT-BOT
+cd D4D-XRT-BOT
 npm install
 
 ---
