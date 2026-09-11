@@ -1,24 +1,36 @@
 {
-  "name": "nodejs",
-  "version": "1.0.0",
-  "description": "",
+  "name": "d4d-xrt-bot",
+  "version": "1.1.0",
+  "description": "Configurable X API v2 retweet scheduler with a deployment health endpoint.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "lint": "node --check index.js && node --check test/index.test.js",
+    "test": "node --test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doomed-4Dina/D4D-XRT-BOT.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Doomed-4Dina/D4D-XRT-BOT/issues"
+  },
+  "homepage": "https://github.com/Doomed-4Dina/D4D-XRT-BOT#readme",
+  "keywords": [
+    "x-api",
+    "twitter-api",
+    "retweet",
+    "automation",
+    "nodejs"
+  ],
+  "author": "Doomed-4Dina",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
-    "@types/node": "^22.13.11",
-    "axios": "^1.8.4",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "express-session": "^1.18.1",
-    "form-data": "^4.0.2",
-    "oauth-1.0a": "^2.2.6",
-    "passport": "^0.7.0",
-    "passport-twitter": "^1.0.4",
-    "twitter-api-v2": "^1.22.0"
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "twitter-api-v2": "^1.29.1"
   }
 }
